@@ -72,19 +72,19 @@ A similar tradeoff is made, also inadvertently, by those constructing minimum va
 Whatever the modification contemplated may imply, we proceed towards its surprising implication by mentally multiplying $J$ above and noting that $(J J')_{i,j} = min(i,j)$ because 
 
 $$
-     \left[ \begin{array}{cccc} 1 &amp; 0 &amp; \dots &amp; 0 \\ 
-                                  1 &amp; 1 &amp; \dots &amp; 0 \\
-                                  \vdots &amp; \vdots &amp; \ddots &amp; 0 \\
-                                  1 &amp; 1 &amp; 1 &amp; 1 
+     \left[ \begin{array}{cccc} 1 & 0 & \dots & 0 \\ 
+                                  1 & 1 & \dots & 0 \\
+                                  \vdots & \vdots & \ddots & 0 \\
+                                  1 & 1 & 1 & 1 
          \end{array} \right] 
-       \left[ \begin{array}{cccc} 1 &amp; 1 &amp; \dots &amp; 1 \\ 
-                                  0 &amp; 1 &amp; \dots &amp; 1 \\
-                                  \vdots &amp; \vdots &amp; \ddots &amp; 1 \\
-                                  0 &amp; 0 &amp; 0 &amp; 1 
-         \end{array} \right] =  \left[ \begin{array}{cccc} 1 &amp; 1 &amp; \dots &amp; 1 \\ 
-                                  1 &amp; 2 &amp; \dots &amp; 2 \\
-                                  \vdots &amp; \vdots &amp; \ddots &amp; \vdots \\
-                                  1 &amp; 2 &amp; \dots &amp; n 
+       \left[ \begin{array}{cccc} 1 & 1 & \dots & 1 \\ 
+                                  0 & 1 & \dots & 1 \\
+                                  \vdots & \vdots & \ddots & 1 \\
+                                  0 & 0 & 0 & 1 
+         \end{array} \right] =  \left[ \begin{array}{cccc} 1 & 1 & \dots & 1 \\ 
+                                  1 & 2 & \dots & 2 \\
+                                  \vdots & \vdots & \ddots & \vdots \\
+                                  1 & 2 & \dots & n 
          \end{array} \right] 
 $$
 
@@ -100,19 +100,19 @@ $$
 corresponding to a modified excess return of \(\psi(\pi^*) = \frac{n-1}{4}\). To prove this observe that \(\psi(\pi)\) can be re-written as follows (count the number of times each \(\pi_i\) and \(\pi_i \pi_j\) occurs)
 $$
  \begin{eqnarray*}
-\psi(\pi) &amp = &amp;  - 2 \sum_{i,j=1}^{n} min(i,j) \pi_i  \pi_j + \sum_{i=1}^n i \pi_i^2 + \sum_{i=1}^n i \pi_i \\
-   &amp; = &amp;    -(\pi_1 + \pi_2 + ... + \pi_n)^2 + (\pi_1 + \pi_2 + ... + \pi_n) \\
- &amp;  &amp; -  (\pi_2 + ... + \pi_n)^2 + (\pi_2 + ... + \pi_n)\\
-    &amp; &amp;  \vdots \\
-    &amp; &amp; - (\pi_{n-1}+\pi_{n})^2 + (\pi_{n-1}+\pi_{n}) \\
-    &amp;  &amp; - (\pi_n)^2 + \pi_n \\
-   &amp; = &amp;  \sum_{i=0}^{n-1} (-u_i^2 + u_i) \\
-   &amp; = &amp;  \sum_{i=1}^{n-1} (-u_i^2 + u_i) \\
-   &amp; = &amp;  \sum_{i=1}^{n-1} \left(-(u_i-1/2)^2+1/4 \right) \\
-   &amp; = &amp; \frac{n-1}{4} - \sum_{i=1}^{n-1} (u_i-1/2)^2
+\psi(\pi) & = &  - 2 \sum_{i,j=1}^{n} min(i,j) \pi_i  \pi_j + \sum_{i=1}^n i \pi_i^2 + \sum_{i=1}^n i \pi_i \\
+   & = &    -(\pi_1 + \pi_2 + ... + \pi_n)^2 + (\pi_1 + \pi_2 + ... + \pi_n) \\
+ &  & -  (\pi_2 + ... + \pi_n)^2 + (\pi_2 + ... + \pi_n)\\
+    & &  \vdots \\
+    & & - (\pi_{n-1}+\pi_{n})^2 + (\pi_{n-1}+\pi_{n}) \\
+    &  & - (\pi_n)^2 + \pi_n \\
+   & = &  \sum_{i=0}^{n-1} (-u_i^2 + u_i) \\
+   & = &  \sum_{i=1}^{n-1} (-u_i^2 + u_i) \\
+   & = &  \sum_{i=1}^{n-1} \left(-(u_i-1/2)^2+1/4 \right) \\
+   & = & \frac{n-1}{4} - \sum_{i=1}^{n-1} (u_i-1/2)^2
 \end{eqnarray*}
 $$
 
-where we have introduced \(u_i = \sum_{j=i+1}^n \pi_j \) as the sum of portfolio weights leaving out the first \(i\), and applied the constraint \(u_0=1\). The expression is clearly maximized by setting \(u_1 ... u_n\) equal to \(1/2\). By back substitution beginning with \(\pi_n\) this implies \(\pi = \pi^*\) as claimed. 
+where we have introduced $u_i = \sum_{j=i+1}^n \pi_j $ as the sum of portfolio weights leaving out the first $i$ and applied the constraint $u_0=1$. The expression is clearly maximized by setting $u_1 ... u_n$ equal to $1/2$. By back substitution beginning with $\pi_n$ this implies $\pi = \pi^*$ as claimed. 
 
 
