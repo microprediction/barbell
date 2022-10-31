@@ -82,7 +82,7 @@ $$
        \psi(\pi) = \sum_{i=1}^n i \pi_i  - 2\sum_{i,j=1}^{n} min(i,j) \pi_i  \pi_j + \sum_{i=1}^n i \pi_i^2 
 $$
 
-This leaves us with a cute little optimization. I claim that $\psi(\pi)$ is maximized (and hence also modified excess return) subject to \(\sum_{i=1}^n \pi_i = 1\), by setting the portfolio equal to a barbell. Half the portfolio is invested in the first (shortest maturity) bond and the other half on the last (longest maturity) bond. That is,
+This leaves us with a cute little optimization. I claim that $\psi(\pi)$ is maximized (and hence also modified excess return) subject to $\sum_{i=1}^n \pi_i = 1$, by setting the portfolio equal to a barbell. Half the portfolio is invested in the first (shortest maturity) bond and the other half on the last (longest maturity) bond. That is,
 
 $$
   \pi^* = \left[ \begin{array}{c} 1/2 \\ 0 \\ \vdots \\ 0 \\ 1/2   \end{array}  \right]
