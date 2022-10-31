@@ -125,7 +125,6 @@ $$
 \end{eqnarray*}
 $$
 
-In the modified excess return the covariance term is more important so one might reason that, all else being equal, choosing this modification over the bone fide excess return represents a sacrifice of long term growth in exchange for reduced portfolio variance 
-- though the difference picks up the between-asset terms only, not the variances.   
+In the modified excess return the covariance term is more important so one might reason that, all else being equal, choosing this modification over the bone fide excess return represents a sacrifice of long term growth in exchange for reduced portfolio variance, although it is also worth noting that the difference picks up the between-asset terms only, not the variances.   
 
 
