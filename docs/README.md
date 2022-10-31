@@ -92,7 +92,7 @@ $$
 by setting the portfolio equal to a barbell. Half the portfolio is invested in the first (shortest maturity) bond and the other half on the last (longest maturity) bond. That is,
 
 $$
-  \pi^* = \left( 1/2, 0, \dots, 0, 1/2 )
+  \pi^* = \left( 1/2, 0, \dots, 0, 1/2 \right)
 $$ 
 
 corresponding to a modified excess return of $\psi(\pi^*) = \frac{n-1}{4}$. To prove this observe that $\psi(\pi)$ can be re-written as follows (count the number of times each $\pi_i$ and $\pi_i \pi_j$ occurs)
