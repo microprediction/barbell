@@ -11,7 +11,7 @@ $$
     B^{i}(t) = \exp\left(- \int_t^{t+i} f(t,s) ds \right)
 $$
 
-and assume further that the changes in forward rates $ f(t,s) $ at time $t$ for different years are *independent* (I do not defend these assumptions, merely point out an analytical implication of them). The rates may have non-trivial drift. It will suffice to note that the vector of bonds has dynamics given by
+and assume further that the changes in forward rates $f(t,s)$ at time $t$ for different years are *independent* (I do not defend these assumptions, merely point out an analytical implication of them). The rates may have non-trivial drift. It will suffice to note that the vector of bonds has dynamics given by
 
 $$
    d \left[ \begin{array}{c} log B^{1}(t) \\ 
@@ -110,14 +110,13 @@ where we have introduced $u_i = \sum_{j=i+1}^n \pi_j$ as the sum of portfolio we
 
 ### Interpretation
 
-From the above we know that 
+How shall we interpret the fact that a barbell portfolio of zero coupon bonds maximizes modified excess return? I should start by noting the reason for the name. A more conventional quantity, using in Stochastic Portfolio Theory, is the so-called excess return: 
 
 $$
      excess\ return  =  \sum_{i=1}^n \pi_i \sigma_{ii} - \sum_{i,j=1}^{n} \pi_i \pi_j \sigma_{ij}
 $$
 
-which is most certainly meaningful. Indeed, the log-optimal investor may seek to maximize excess return. In contrast, the modified excess return makes the covariance term more important so one might reason that, all else being equal, choosing this modification over the bone fide excess return represents a sacrifice of long term growth in exchange for reduced portfolio variance 
-- though the difference picks up the between-asset terms only, not the variances.   
+The interpretation of excess return is relatively straightforward, and setting estimation issues aside (of course) a log-optimal investor could reasonably defend maximizing this quantity. Perhaps then, to understand what the barbell portfolio investor is doing, we should consider the difference:
 
 $$
 \begin{eqnarray*}
@@ -126,14 +125,7 @@ $$
 \end{eqnarray*}
 $$
 
-A similar tradeoff is made, also inadvertently, by those constructing minimum variance portfolios in the tradition of Markowitz and de Finetti. 
+In the modified excess return the covariance term is more important so one might reason that, all else being equal, choosing this modification over the bone fide excess return represents a sacrifice of long term growth in exchange for reduced portfolio variance 
+- though the difference picks up the between-asset terms only, not the variances.   
 
-$$
- \sum_{i,j=1}^{n} \pi_i \pi_j \sigma_{ij}
-$$
- 
-is contemplated, not 
 
-$$
-   \sum_{i=1}^n \pi_i \sigma_{ii}
-$$   
