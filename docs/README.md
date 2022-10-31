@@ -110,7 +110,7 @@ where we have introduced $u_i = \sum_{j=i+1}^n \pi_j$ as the sum of portfolio we
 
 ### Interpretation
 
-We make no statement as to what modified excess return represents, except to compare it to
+From the above we know that 
 
 $$
      excess\ return  =  \sum_{i=1}^n \pi_i \sigma_{ii} - \sum_{i,j=1}^{n} \pi_i \pi_j \sigma_{ij}
@@ -126,7 +126,7 @@ $$
 \end{eqnarray*}
 $$
 
-A similar tradeoff is made, also inadvertently, by those constructing minimum variance portfolios in the tradition of Markowitz and de Finetti. In the minimum variance prescription only the portfolio variance term 
+A similar tradeoff is made, also inadvertently, by those constructing minimum variance portfolios in the tradition of Markowitz and de Finetti. 
 
 $$
  \sum_{i,j=1}^{n} \pi_i \pi_j \sigma_{ij}
@@ -136,4 +136,4 @@ is contemplated, not
 
 $$
    \sum_{i=1}^n \pi_i \sigma_{ii}
-$$.   
+$$   
