@@ -118,7 +118,8 @@ $$
 
 which is most certainly meaningful. Indeed, the log-optimal investor may seek to maximize excess return. In contrast, the modified excess return makes the covariance term more important so one might reason that, all else being equal, choosing this modification over the bone fide excess return represents a sacrifice of long term growth in exchange for reduced portfolio variance 
 - though the difference picks up the between-asset terms only, not the variances.   
-$$  
+
+$$
 \begin{eqnarray*}
      modified\ excess\ return - excess\ return & = & - \sum_{i,j=1}^{n} \pi_i \pi_j \sigma_{ij} + \sum_{i=1}^n \pi_i^2 \sigma_{ii} \\
      & = & -\sum_{i \not= j} \pi_i \pi_j \sigma_{ij}
