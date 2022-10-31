@@ -13,7 +13,8 @@ $$
 
 and assume further that the changes in forward rates \( f(t,s) \) at time \(t\) for different years are *independent* (I do not defend these assumptions, merely point out an analytical implication of them). The rates may have non-trivial drift.
 
-It will suffice to note that the vector of bonds has dynamics given by   
+It will suffice to note that the vector of bonds has dynamics given by
+
 $$
    d \left[ \begin{array}{c} log B^{1}(t) \\ 
                              log B^{2}(t) \\ 
@@ -39,6 +40,7 @@ $$
                               dW^n(t)
          \end{array} \right] 
 $$
+
 or more succinctly
 $$
    d (log B) = \gamma \ dt + \eta J \ dW
