@@ -76,7 +76,7 @@ $$
          \end{array} \right] 
 $$
 
-Thus in this slightly  contrived forward rate model we have modified excess return proportional to 
+Thus in this slightly contrived forward rate model we have modified excess return proportional to 
 
 $$
        \psi(\pi) = \sum_{i=1}^n i \pi_i  - 2\sum_{i,j=1}^{n} min(i,j) \pi_i  \pi_j + \sum_{i=1}^n i \pi_i^2 
@@ -106,7 +106,7 @@ $$
 $$
 
 
-where we have introduced $u_i = \sum_{j=i+1}^n \pi_j $ as the sum of portfolio weights leaving out the first $i$ and applied the constraint $u_0=1$. The expression is clearly maximized by setting $u_1 ... u_n$ equal to $1/2$. By back substitution beginning with $\pi_n$ this implies $\pi = \pi^*$ as claimed. 
+where we have introduced $u_i = \sum_{j=i+1}^n \pi_j$ as the sum of portfolio weights leaving out the first $i$ and applied the constraint $u_0=1$. The expression is clearly maximized by setting $u_1 ... u_n$ equal to $1/2$. By back substitution beginning with $\pi_n$ this implies $\pi = \pi^*$ as claimed. 
 
 ### Interpretation
 
