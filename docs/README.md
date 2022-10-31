@@ -55,9 +55,11 @@ $$
 $$  
 
 where, following Stochastic Portfolio Theory notation, $\sigma_{ij}$ is the log-asset covariance, here equal to $\eta^2$ multiplied by the $i$,$j$'th element of $J J^{\top}$. We make no statement as to what modified excess return represents, except to compare it to
+
 $$
      excess\ return  =  \sum_{i=1}^n \pi_i \sigma_{ii} - \sum_{i,j=1}^{n} \pi_i \pi_j \sigma_{ij}
 $$
+
 which is most certainly meaningful. Indeed, the log-optimal investor may seek to maximize excess return. In contrast, the modified excess return makes the covariance term more important so one might reason that, all else being equal, choosing this modification over the bone fide excess return represents a sacrifice of long term growth in exchange for reduced portfolio variance - though the difference picks up the between-asset terms only, not the variances.   
 $$
 \begin{eqnarray*}
