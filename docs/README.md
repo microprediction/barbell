@@ -39,7 +39,9 @@ $$
 $$
 
 or more succinctly
+
 $$
    d (log B) = \gamma \ dt + \eta J \ dW
 $$
-for scalar constant \(\eta\), an \(n\) by \(n\) matrix \(J\) (implicitly defined by the above) and some drift coefficients \(\gamma\) that we don't care too much about in this particular exercise. 
+
+for scalar constant $\eta$, an $n$ by $n$ matrix $J$ (implicitly defined by the above) and some drift coefficients $\gamma$. The observation, however, is that here we don't actually need to worry about the $\gamma$'s. 
