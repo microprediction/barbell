@@ -77,6 +77,7 @@ $$
 $$
 
 Thus in this slightly  contrived forward rate model we have modified excess return proportional to 
+
 $$
        \psi(\pi) = \sum_{i=1}^n i \pi_i  - 2\sum_{i,j=1}^{n} min(i,j) \pi_i  \pi_j + \sum_{i=1}^n i \pi_i^2 
 $$
