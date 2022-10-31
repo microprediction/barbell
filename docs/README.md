@@ -94,9 +94,9 @@ by setting the portfolio equal to a barbell. Half the portfolio is invested in t
 $$
   \pi^* = \left[ \begin{array}{c} 1/2 \\ 
                                    0 \\ 
-                                   \vdots 
+                                   \vdots
                                    \\ 0 
-                                   \\ 1/2   
+                                   \\ 1/2 \\
                                    \end{array}
                                    \right]
 $$ 
