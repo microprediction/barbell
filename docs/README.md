@@ -54,21 +54,7 @@ $$
      {modified\ excess\ return} = \sum_{i=1}^n \pi_i \sigma_{ii} - 2 \sum_{i,j=1}^{n} \pi_i \pi_j \sigma_{ij} + \sum_{i=1}^n \pi_i^2 \sigma_{ii}
 $$  
 
-where, following Stochastic Portfolio Theory notation, $\sigma_{ij}$ is the log-asset covariance, here equal to $\eta^2$ multiplied by the $i$,$j$'th element of $J J^{\top}$. We make no statement as to what modified excess return represents, except to compare it to
-
-$$
-     excess\ return  =  \sum_{i=1}^n \pi_i \sigma_{ii} - \sum_{i,j=1}^{n} \pi_i \pi_j \sigma_{ij}
-$$
-
-which is most certainly meaningful. Indeed, the log-optimal investor may seek to maximize excess return. In contrast, the modified excess return makes the covariance term more important so one might reason that, all else being equal, choosing this modification over the bone fide excess return represents a sacrifice of long term growth in exchange for reduced portfolio variance - though the difference picks up the between-asset terms only, not the variances.   
-$$  
-\begin{eqnarray*}
-     modified\ excess\ return - excess\ return & = & - \sum_{i,j=1}^{n} \pi_i \pi_j \sigma_{ij} + \sum_{i=1}^n \pi_i^2 \sigma_{ii} \\
-     & = & -\sum_{i \not= j} \pi_i \pi_j \sigma_{ij}
-\end{eqnarray*}
-$$
-
-A similar tradeoff is made, also inadvertently, by those constructing minimum variance portfolios in the tradition of Markowitz and de Finetti. In the minimum variance prescription only the portfolio variance term $\sum_{i,j=1}^{n} \pi_i \pi_j \sigma_{ij}$ is contemplated, not $\sum_{i=1}^n \pi_i \sigma_{ii}$.   
+where, following Stochastic Portfolio Theory notation, $\sigma_{ij}$ is the log-asset covariance, here equal to $\eta^2$ multiplied by the $i$,$j$'th element of $J J^{\top}$. 
    
 ### Maximizing the modified excess return
 Whatever the modification contemplated may imply, we proceed towards its surprising implication by mentally multiplying $J$ above and noting that $(J J')_{i,j} = min(i,j)$ because 
@@ -121,4 +107,21 @@ $$
 
 where we have introduced $u_i = \sum_{j=i+1}^n \pi_j $ as the sum of portfolio weights leaving out the first $i$ and applied the constraint $u_0=1$. The expression is clearly maximized by setting $u_1 ... u_n$ equal to $1/2$. By back substitution beginning with $\pi_n$ this implies $\pi = \pi^*$ as claimed. 
 
+### Interpretation
 
+We make no statement as to what modified excess return represents, except to compare it to
+
+$$
+     excess\ return  =  \sum_{i=1}^n \pi_i \sigma_{ii} - \sum_{i,j=1}^{n} \pi_i \pi_j \sigma_{ij}
+$$
+
+which is most certainly meaningful. Indeed, the log-optimal investor may seek to maximize excess return. In contrast, the modified excess return makes the covariance term more important so one might reason that, all else being equal, choosing this modification over the bone fide excess return represents a sacrifice of long term growth in exchange for reduced portfolio variance 
+- though the difference picks up the between-asset terms only, not the variances.   
+$$  
+\begin{eqnarray*}
+     modified\ excess\ return - excess\ return & = & - \sum_{i,j=1}^{n} \pi_i \pi_j \sigma_{ij} + \sum_{i=1}^n \pi_i^2 \sigma_{ii} \\
+     & = & -\sum_{i \not= j} \pi_i \pi_j \sigma_{ij}
+\end{eqnarray*}
+$$
+
+A similar tradeoff is made, also inadvertently, by those constructing minimum variance portfolios in the tradition of Markowitz and de Finetti. In the minimum variance prescription only the portfolio variance term $\sum_{i,j=1}^{n} \pi_i \pi_j \sigma_{ij}$ is contemplated, not $\sum_{i=1}^n \pi_i \sigma_{ii}$.   
