@@ -108,7 +108,7 @@ $$
 
 where we have introduced $u_i = \sum_{j=i+1}^n \pi_j$ as the sum of portfolio weights leaving out the first $i$ and applied the constraint $u_0=1$. The expression is clearly maximized by setting $u_1 ... u_n$ equal to $1/2$. By back substitution beginning with $\pi_n$ this implies $\pi = \pi^*$ as claimed. 
 
-### Interpretation
+### Interpretation?
 
 How shall we interpret the fact that a barbell portfolio of zero coupon bonds maximizes modified excess return? I should start by noting the reason for the name. A more conventional quantity, using in Stochastic Portfolio Theory, is the so-called excess return: 
 
