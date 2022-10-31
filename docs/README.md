@@ -11,6 +11,7 @@ $$
     B^{i}(t) = \exp\left(- \int_t^{t+i} f(t,s) ds \right)
 $$
 
+and assume further that the changes in forward rates \( f(t,s) \) at time \(t\) for different years are *independent* (not that my point is not to defend these assumptions, merely to point out an analytical implication of them). 
 
 ### 
 
