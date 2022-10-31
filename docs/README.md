@@ -11,7 +11,8 @@ $$
     B^{i}(t) = \exp\left(- \int_t^{t+i} f(t,s) ds \right)
 $$
 
-and assume further that the changes in forward rates $f(t,s)$ at time $t$ for different years are *independent* (I do not defend these assumptions, merely point out an analytical implication of them). The rates may have non-trivial drift. It will suffice to note that the vector of bonds has dynamics given by
+and assume further that the changes in forward rates $f(t,s)$ at time $t$ for different years are *independent* (I do not defend these assumptions, merely point out an analytical implication of them). The rates may have non-trivial drift. It will suffice to note that the
+vector of bonds has dynamics given by
 
 $$
    d \left[ \begin{array}{c} log B^{1}(t) \\ 
@@ -82,7 +83,13 @@ $$
        \psi(\pi) = \sum_{i=1}^n i \pi_i  - 2\sum_{i,j=1}^{n} min(i,j) \pi_i  \pi_j + \sum_{i=1}^n i \pi_i^2 
 $$
 
-This leaves us with a cute little optimization. I claim that $\psi(\pi)$ is maximized (and hence also modified excess return) subject to $\sum_{i=1}^n \pi_i = 1$, by setting the portfolio equal to a barbell. Half the portfolio is invested in the first (shortest maturity) bond and the other half on the last (longest maturity) bond. That is,
+This leaves us with a cute little optimization. I claim that $\psi(\pi)$ is maximized (and hence also modified excess return) subject to 
+
+$$
+   \sum_{i=1}^n \pi_i = 1
+$$
+
+by setting the portfolio equal to a barbell. Half the portfolio is invested in the first (shortest maturity) bond and the other half on the last (longest maturity) bond. That is,
 
 $$
   \pi^* = \left[ \begin{array}{c} 1/2 \\ 0 \\ \vdots \\ 0 \\ 1/2   \end{array}  \right]
