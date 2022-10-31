@@ -33,7 +33,6 @@ $$
                                   \vdots &amp; \vdots &amp; \ddots &amp; 0 \\
                                   1 &amp; 1 &amp; 1 &amp; 1 
          \end{array} \right] 
-
       \left[ \begin{array}{c} dW^1(t) \\ 
                               dW^2(t) \\ 
                              \dots  \\
