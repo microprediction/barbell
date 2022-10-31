@@ -96,7 +96,9 @@ $$
                                    0 \\ 
                                    \vdots 
                                    \\ 0 
-                                   \\ 1/2   \end{array}  \right]
+                                   \\ 1/2   
+                                   \end{array}
+                                   \right]
 $$ 
 
 corresponding to a modified excess return of $\psi(\pi^*) = \frac{n-1}{4}$. To prove this observe that $\psi(\pi)$ can be re-written as follows (count the number of times each $\pi_i$ and $\pi_i \pi_j$ occurs)
