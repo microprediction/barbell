@@ -126,4 +126,14 @@ $$
 \end{eqnarray*}
 $$
 
-A similar tradeoff is made, also inadvertently, by those constructing minimum variance portfolios in the tradition of Markowitz and de Finetti. In the minimum variance prescription only the portfolio variance term $\sum_{i,j=1}^{n} \pi_i \pi_j \sigma_{ij}$ is contemplated, not $\sum_{i=1}^n \pi_i \sigma_{ii}$.   
+A similar tradeoff is made, also inadvertently, by those constructing minimum variance portfolios in the tradition of Markowitz and de Finetti. In the minimum variance prescription only the portfolio variance term 
+
+$$
+ \sum_{i,j=1}^{n} \pi_i \pi_j \sigma_{ij}
+$$
+ 
+is contemplated, not 
+
+$$
+   \sum_{i=1}^n \pi_i \sigma_{ii}
+$$.   
