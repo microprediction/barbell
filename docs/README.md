@@ -63,10 +63,11 @@ $$
       &amp; = &amp; -\sum_{i \not= j} \pi_i \pi_j \sigma_{ij}
 \end{eqnarray*}
 $$
+
 A similar tradeoff is made, also inadvertently, by those constructing minimum variance portfolios in the tradition of Markowitz and de Finetti. In the minimum variance prescription only the portfolio variance term $\sum_{i,j=1}^{n} \pi_i \pi_j \sigma_{ij}$ is contemplated, not $\sum_{i=1}^n \pi_i \sigma_{ii}$.   
    
 ### Maximizing the modified excess return
-Whatever the modification contemplated may imply, we proceed towards its surprising implication by mentally multiplying \(J\) above and noting that \( (J J')_{i,j} = min(i,j) \) because 
+Whatever the modification contemplated may imply, we proceed towards its surprising implication by mentally multiplying $J$ above and noting that $(J J')_{i,j} = min(i,j)$ because 
 
 $$
      \left[ \begin{array}{cccc} 1 &amp; 0 &amp; \dots &amp; 0 \\ 
@@ -97,7 +98,7 @@ $$
 corresponding to a modified excess return of \(\psi(\pi^*) = \frac{n-1}{4}\). To prove this observe that \(\psi(\pi)\) can be re-written as follows (count the number of times each \(\pi_i\) and \(\pi_i \pi_j\) occurs)
 $$
  \begin{eqnarray*}
-\psi(\pi) &amp; = &amp;  - 2 \sum_{i,j=1}^{n} min(i,j) \pi_i  \pi_j + \sum_{i=1}^n i \pi_i^2 + \sum_{i=1}^n i \pi_i \\
+\psi(\pi) &amp = &amp;  - 2 \sum_{i,j=1}^{n} min(i,j) \pi_i  \pi_j + \sum_{i=1}^n i \pi_i^2 + \sum_{i=1}^n i \pi_i \\
    &amp; = &amp;    -(\pi_1 + \pi_2 + ... + \pi_n)^2 + (\pi_1 + \pi_2 + ... + \pi_n) \\
  &amp;  &amp; -  (\pi_2 + ... + \pi_n)^2 + (\pi_2 + ... + \pi_n)\\
     &amp; &amp;  \vdots \\
