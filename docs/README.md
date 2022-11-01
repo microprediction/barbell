@@ -49,7 +49,7 @@ for scalar constant $\eta$, an $n$ by $n$ matrix $J$ (implicitly defined by the 
 
 ### Modified excess return 
 
-Consider a portfolio of these bonds with weights \(\pi\) summing to unity. By analogy with Stochastic Portfolio theory, but with no other motivation for now, I consider a modified excess return given by 
+Consider a portfolio of these bonds with weights $\pi$ summing to unity. By analogy with Stochastic Portfolio theory, but with no other motivation for now, I consider a modified excess return given by 
 
 $$
      {modified\ excess\ return} = \sum_{i=1}^n \pi_i \sigma_{ii} - 2 \sum_{i,j=1}^{n} \pi_i \pi_j \sigma_{ij} + \sum_{i=1}^n \pi_i^2 \sigma_{ii}
