@@ -55,7 +55,7 @@ $$
      {modified\ excess\ return} = \sum_{i=1}^n \pi_i \sigma_{ii} - 2 \sum_{i,j=1}^{n} \pi_i \pi_j \sigma_{ij} + \sum_{i=1}^n \pi_i^2 \sigma_{ii}
 $$  
 
-where, following Stochastic Portfolio Theory notation, $\sigma_{ij}$ is the log-asset covariance, here equal to $\eta^2$ multiplied by the $i$,$j$'th element of $J J^{\top}$. 
+where, following Stochastic Portfolio Theory notation, $\sigma_{ij}$ is the log-asset covariance, here equal to $\eta^2$ multiplied by the $i$, $j$ 'th element of $J J^{\top}$. 
    
 ### Maximizing the modified excess return
 Whatever the modification contemplated may imply, we proceed towards its surprising implication by mentally multiplying $J$ above and noting that $(J J')_{i,j} = min(i,j)$ because 
